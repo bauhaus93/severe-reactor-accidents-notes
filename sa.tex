@@ -1131,7 +1131,256 @@ NOT SURE IF USEFUL SECTION
 \end{itemize}
 
 \section{Molten Core Concrete Interaction (MCCI)}
-PAGE 267
 
+\subsection{Beton}
+\begin{itemize}
+  \item Zement als Bindemittel
+  \item Zuschlag, verschiedene Größen
+  \item Mit Wasser \textrightarrow\ Matrix mit Zuschlagsmaterial gefüllt
+  \item Calciumsilicathydrat (CSH)
+  \item Verschiedene Arten
+  \begin{itemize}
+    \item Schwerer Beton: Verdampfung Kristallwasser: 100°C
+    \item Superschwerer Beton: 
+    \item Serpentinistischer Beton: Verdampfung Kristallwasser: 500°C, n-Moderation
+  \end{itemize}
+\end{itemize}
+
+\subsection{Beton und Wasser}
+\begin{itemize}
+  \item Freies Wasser: in Poren des Zementsteins
+  \item Physikalisch gebundenes Wasser: an freien Oberflächen abgelagert
+  \item Chemisch gebundenes Wasser: Hydrationsprodukte d. Zements
+\end{itemize}
+
+\subsection{Phänomene}
+\begin{itemize}
+  \item Korrosion
+  \item Freisetzung v. Dampf/Gasen aus sich zersetzenden Beton
+  \item Chemische Reaktion d. Bestandteile mit Schmelze
+  \item Vermischung d. Kernschmelze mit Betonschmelze \textrightarrow\ Änderung Erstarrungsverhalten
+  \item Wet Cavity
+  \begin{itemize}
+    \item Dampfspitze \textrightarrow\ Containmentbruch
+    \item Dampfexplosion
+    \item Geschossbildung aus Trümmern
+    \item Wasserstoffexplosion
+  \end{itemize}
+\end{itemize}
+
+\subsection{Sicherheitsfragen}
+\begin{itemize}
+  \item Größe d. freigesetzten Spaltprodukte
+  \item Überdruckversagen d. Containments möglich?
+  \item Durchschmelzen d. Betonwanne?
+  \item Einbruch Gebäudestrukturen innerhalb Containments?
+\end{itemize}
+
+\subsection{Corium in Cavity}
+\begin{itemize}
+  \item Corium bei 2700K
+  \item Metallische Phase: Stahl + Zircaloy
+  \item Oxidationsphase: \(UO_2 + ZrO_2\)
+  \item Energie
+  \begin{itemize}
+    \item PWR \(1000MW_{el}\): \(250\frac{W}{kg}\) (early), \(50\frac{W}{kg}\) (12 days), \(5\frac{W}{kg}\) (1 year)
+    \item BWR \(1000MW_{el}\): \(160\frac{W}{kg}\) (early), \(30\frac{W}{kg}\) (12 days), \(3\frac{W}{kg}\) (1 year)
+  \end{itemize}
+  \item Modellierung
+  \begin{itemize}
+    \item Homogene Konfiguration: Oxidschicht
+    \item Geschichtete Konfiguration: Kruste \textrightarrow\ Oxidschicht \textrightarrow\ Metallschicht
+  \end{itemize}
+\end{itemize}
+
+\subsection{Interaktionen}
+\begin{itemize}
+  \item Schichten bekommen Masse durch zersetzenden Beton (\(H_2O,\ CO_2\), Schlacke)
+  \item Oxidschicht
+  \begin{itemize}
+    \item Strahlung(Wärme) \textrightarrow\ Atmosphäre, Metallschicht, Beton
+    \item \(H_2,\ CO,\ CO_2,\ H_2O\) \textrightarrow\ Atmosphäre
+    \item Reduzierte Oxide \textrightarrow\ Metallschicht
+  \end{itemize}
+  \item Metallschicht
+  \begin{itemize}
+    \item Wärme \textrightarrow\ Beton, Oxidschicht
+    \item Oxidierte Metalle, Gas \textrightarrow\ Oxidschicht
+  \end{itemize}
+\end{itemize}
+
+\subsection{Chemie d. Schmelze}
+\begin{itemize}
+  \item Oxidation:
+  \begin{itemize}
+    \item (Zr/Cr/Fe) + (\(H_2O/CO_2\)) \textrightarrow\ \(H_2/CO\)
+  \end{itemize}
+  \item Reduktion:
+  \begin{itemize}
+    \item \(Zr + (SiO_2/Fe_2O_3) \rightarrow (ZrO_2/Fe/Si/SiO)\)
+    \item \(Si + (H_2O/CO_2) \rightarrow (H_2/CO)\)
+  \end{itemize}
+  \item Wasserstoffproduktion
+\end{itemize}
+
+\subsection{Tests}
+\begin{itemize}
+  \item Testanlagen: COMET, VULCANO, BETA I
+  \item COMET-L2
+  \begin{itemize}
+    \item Durch Induktionswärme
+    \item Keine Oxidschmelze zu Beginn
+    \item Geschmolzener Beton sammelt sich auf Metallschmelze
+    \item Anfangs Radial/Axial-Erosion 1:1
+    \item Nach 100s: Axiale Erosion 2/3 x schneller
+    \item Über längere Zeit: Perioden moderater Interaktion unterbrochen durch Schmelzeruptionen
+    \textrightarrow\ Brechen v. Metallkrusten
+  \end{itemize}
+\end{itemize}
+
+\section{Quelltermverhalten}
+
+\subsection{Simulation d. Computercodes}
+\begin{itemize}
+  \item Integrale Codes: STCP, ESCADRE, MELCOR, ASTEC (vs. Single Effect Codes)
+  \item Grundlagen sind Experimente (PBF, LOFT, PHEBUS)
+  \item Vorläufer: CORRAL (1977), MARCH (1980), MARCH-2 (1984)
+\end{itemize}
+
+\subsection{STCP}
+\begin{itemize}
+  \item Komponenten für
+  \begin{itemize}
+    \item Primärsystem
+    \item Ex-Vessel Aerosole
+    \item Transport Radionuklide
+    \item Containment
+  \end{itemize}
+  \item Modellierung: Nodalisierung
+\end{itemize}
+
+\subsection{STCP}
+\subsubsection{Ergebnis Primärkreislauf}
+\begin{itemize}
+  \item Sequenz: AB (Large Break + Station Blackout)
+  \item Szenario (Primärkreis)
+  \begin{enumerate}
+    \item Bruch
+    \item 5.8MPa: Einspeisung Akkumulatoren
+    \item Kaltes Wasser erhitzt (Druckanstieg)
+    \item 800s: Kernfreilegung (reduzierung Wärmetransfer/Dampferzeugung)
+    \item 3300s: Kern fällt herunter (Dampferzeugung)
+    \item 4000s: Gleichgewicht Energieerzeugung/Wärmetransfer
+  \end{enumerate}
+  \item Druck: Steigt/Sinkt
+  \item Wasserinventar sink grundsätzlich
+  \item Kerntemperatur: Steigt bei Freilung, Sinkt bei herunterfallen, dann steigt wieder
+\end{itemize}
+
+\subsubsection{Containmentsumpf/Cavity Inventare}
+\begin{enumerate}
+  \item 14k s: ECCS Einspeisung \textrightarrow\ Wasserinventar steigt
+  \item Keine Wasserkühlung \textrightarrow\ Wasserinventar sinkt
+  \item 300k s: Containmentversagen: Massiver Verlust (Wasser verdampft)
+  \item Pumpen stoppen (kein Wasser) \textrightarrow\ Cavity leert sich, wird trocken (MCCI), Schmilzt durch
+\end{enumerate}
+
+\subsubsection{Betonerosion}
+\begin{itemize}
+  \item Bei trockener Cavity: Anstieg d. Erosion
+  \item Unterseite zuerst komplett erodiert
+  \item Unterseite unter kontinuierlichem Angriff 
+  \item Seiten erst ab trockener Cavity angegriffen
+\end{itemize}
+
+\subsubsection{Containmentdruck}
+\begin{itemize}
+  \item Steigt an bis Containmentversagen, dann rapider Abfall
+\end{itemize}
+
+\subsubsection{Nuklide im Containment}
+\begin{itemize}
+  \item Steigt anfangs
+  \item Senkung viele Nuklide durch Spraysystem
+  \item Senkung durch bei Containmentversagen
+\end{itemize}
+
+\subsection{ASTEC}
+\begin{itemize}
+  \item Kontinuierlich upgedatet
+  \item 2001: Release
+  \item 2004: Neues MCCI-Modul
+  \item 2005: Core-Quenching, PWR update
+  \item 2011: Vorläufige Modelle for BWR/CANDU
+  \item 2013: SA-Sequenzen für BWR/CANDU
+\end{itemize}
+
+\section{Schwere Unfälle}
+
+\subsection{Chalk-River (1952)}
+\begin{itemize}
+  \item Kühlung: Wasser, Moderator: Deuteriumoxid
+  \item Plutonium/Radiopharmakaproduktion
+  \item Bedienungsfehler \textrightarrow\ partielle Kernschmelze\\
+  \textrightarrow\ \(H_2\)-Explosion \textrightarrow\ Kuppel zerstört \textrightarrow\ Spaltproduktfreisetzung
+\end{itemize}
+
+\subsection{SL-1 (1961)}
+
+\subsubsection{Allgemein}
+\begin{itemize}
+  \item Stationary Low Power Unit 
+  \item INEL
+  \item BWR
+  \item Prototyp f. transportable Energiequellen (arktische Radarstationen)
+\end{itemize}
+
+\subsection{Unfallverlauf}
+\begin{enumerate}
+  \item Reaktor war heruntergefahren
+  \item Kontrollstäbe ausgehängt, Messgeräte rein
+  \item Kontrollstäbe wieder einhängen (3 Mann), Reaktor hochfahren
+  \item Kontrollstäbe händisch einhängen\\
+  \textrightarrow\ Designfehler: Reaktor bei Entfernung d. zentralen Kontrollstabes kritisch
+  \item Kontrollstab zu weit herausgezogen \textrightarrow\ Reaktor kritsch
+  \item Wasser erhitzt \textrightarrow\ Dampf/Wasserhammer schleudern Kontrollstäbe heraus \textrightarrow\ Kernschmelze
+\end{enumerate}
+
+\subsection{Probleme}
+\begin{itemize}
+  \item Designfehler: Kritikalität bei Entfernung zentralen Kontrollstabes
+  \item Wartungsfehler: Klemmende Kontrollstäbe nicht repariert
+  \item Menschliches Versagen: Vorschriften nicht beachtet
+\end{itemize}
+
+\subsection{Windscale Pile \#1 (1957)}
+
+\subsubsection{Allgemein}
+\begin{itemize}
+  \item Kühlung: Luft
+  \item Moderator: Graphit
+  \item Problem: Wigner-Energie
+\end{itemize}
+
+\subsubsection{Unfallverlauf}
+\begin{enumerate}
+  \item Ausglühvorgang gestartet (CR ziehen)
+  \item Falsche Instrmentenanzeige, erneuter Ausglühvorgang \textrightarrow\ T steigt stark
+  \item Urankartusche platzt, oxidiert, T steigt \textrightarrow\ Feuer
+  \item Crew nimmt an, \(\Delta T\) ist Ergebnis d. Ausglühens
+  \item Da \(\Delta T\) hoch: Kühlung durch erhöhten Luftstrom\\
+  \textrightarrow\ Mehr Oxidation, Spaltprodukte zu Filtern gebracht
+  \item Erhöhte Aktivität registiert, Alarm ausgelöst
+  \item Nach 1 Tag mit Wasser gelöscht, T war 1300°C
+\end{enumerate}
+
+\subsection{Three Mile Island-2 (1979)}
+
+\subsubsection{Allgemein}
+\begin{itemize}
+  \item PWR
+\end{itemize}
+
+PAGE 343
 
 \end{document}
