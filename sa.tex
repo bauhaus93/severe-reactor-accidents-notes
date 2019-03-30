@@ -1365,7 +1365,7 @@ NOT SURE IF USEFUL SECTION
 \subsubsection{Unfallverlauf}
 \begin{enumerate}
   \item Ausglühvorgang gestartet (CR ziehen)
-  \item Falsche Instrmentenanzeige, erneuter Ausglühvorgang \textrightarrow\ T steigt stark
+  \item Falsche Instrumentenanzeige, erneuter Ausglühvorgang \textrightarrow\ T steigt stark
   \item Urankartusche platzt, oxidiert, T steigt \textrightarrow\ Feuer
   \item Crew nimmt an, \(\Delta T\) ist Ergebnis d. Ausglühens
   \item Da \(\Delta T\) hoch: Kühlung durch erhöhten Luftstrom\\
@@ -1381,6 +1381,214 @@ NOT SURE IF USEFUL SECTION
   \item PWR
 \end{itemize}
 
-PAGE 343
+\subsubsection{Unfallverlauf}
+\begin{enumerate}
+  \item Revisionsarbeiten (Kondensatreiniger reinigen)
+  \item 0s: Fehlfunktion: Ventil d. Speiseleitung geschlossen
+  \begin{enumerate}[label = \textrightarrow]
+    \item (Kondensatoren \textrightarrow\ Hauptspeisepumpen Sekundärkreislauf)
+    \item Loss of Feedwater Flow to Steamgenerator (SG)
+    \item Keine Kühlung durch SG
+  \end{enumerate}
+  \item 3s: Druckanstieg, Druckhalteventil (PORV) bei 158 bar geöffnet
+  \begin{enumerate}[label = \textrightarrow]
+    \item Dampf in Abblasetank, kondensiert dort
+    \item 1 bar Überdruck \textrightarrow\ Berstscheibe zerbricht
+    \item Kühlmittel ins Containment
+  \end{enumerate}
+  \item 9s: CR eingefahren \textrightarrow\ Druckanstieg gestoppt
+  \begin{enumerate}[label = \textrightarrow]
+    \item PORV schließt nicht mehr (Signal verdeckt)
+    \item Small Break LOCA
+  \end{enumerate}
+  \item \textasciitilde 2m: Dampfgeneratoren trocken
+  \item \textasciitilde 2m: Druck sinkt
+  \begin{enumerate}[label = \textrightarrow]
+    \item Start ECCS (HPCI)
+    \item Ignoriert v. Operator, ist immer wieder mal losgegangen
+  \end{enumerate}
+  \item 3m: Reactor Coolant Drain Tank Relief Valve öffnet
+  \item 8m: Feedwater Ventil geöffnet, aber SG bereits trocken
+  \item 15m: RCDT Rupture Disk bricht
+  \item 1h: Operator glaubt, Primärsystem mit \(H_2O\) gefüllt
+  \begin{enumerate}[label = \textrightarrow]
+    \item ECCS ausgeschaltet
+    \item Wasserniveau sinkt
+    \item Kern freigelegt
+    \item Temperatur steigt
+    \item Freisetzung Spaltprodukte + \(H_2\)
+    \item In Containment über Rupture Disk, Relief Valve
+  \end{enumerate}
+  \item 1h: Hauptkühlmittelpumpen ausgeschalten \textrightarrow\ Víbrationen wg. Kavitation
+  \item 2h: PORV geschlossen \textrightarrow\ LOCA gestoppt
+  \begin{enumerate}[label = \textrightarrow]
+    \item ca 30\% d. Kerns geschmolzen \textrightarrow\ Operatoren keine Ahnung
+    \item 700k Liter kontaminiertes \(H_2O\) in Containment
+    \item Strahlenalarm
+  \end{enumerate}
+  \item 3h: 50\% d. Kerns freigelegt
+  \item 3h: PORV Ventil f. 17 m geöffnet
+  \item 4h: HPCI erneut gestartet, kein Erfolg
+  \begin{enumerate}[label = \textrightarrow]
+    \item Druck bleibt hoch
+    \item Keine Zirkulation
+  \end{enumerate}
+  \item 7h: Ventil geöffnet \textrightarrow\ Dampf aus Druckhalter
+  \begin{enumerate}[label = \textrightarrow]
+    \item Druck sinkt (34 bar)
+  \end{enumerate}
+  \item 9h: \(H_2\) Explosion in Containment
+  \item 13h: Ventil geschlossen, Hauptkühlmittelpumpen wieder an
+  \item 15h: Kühlung wiederhergestellt
+\end{enumerate}
+
+\subsubsection{Lehren}
+\begin{itemize}
+  \item Schmelzvorgang beginnt bei Kontrollstäben
+  \item Wasserdampf in unterem Plenum schützt RDB
+  \item Containment effizente Barriere
+  \begin{itemize}
+    \item Fast 100\% I/Cs in Wasser geblieben
+    \item 50\% Edelgase in Containment
+    \item 10\% Edelgase in Umwelt \textrightarrow\ DOsis \(<1 mSv\)
+  \end{itemize}
+\end{itemize}
+
+\subsection{Tschernobyl (1986)}
+
+\subsubsection{Abschaltesystem}
+\begin{itemize}
+  \item Steuerstäbe
+  \begin{itemize}
+    \item Absorberteil (\(B_4C\), 6m)
+    \item Verdrängerteil (Graphit, 4.5m)
+    \begin{enumerate}[label = \textrightarrow]
+    \item Graphit verdrängt n-absorbierendes Wasser
+    \item positive Reaktivität
+    \end{enumerate}
+  \end{itemize}
+  \item Einfahrzeit: 20s
+\end{itemize}
+
+\subsubsection{Versuchsprogramm}
+\begin{itemize}
+  \item Nachweis d. Stromversorgung bei Reaktorabschaltung b. Totalausfall Stromversorgung
+  \item Versuch bei reduzierter Leistung
+  \item Planung ohne Reaktortechniker
+\end{itemize}
+
+\subsubsection{Unfallverlauf}
+\begin{itemize}
+  \item 25.4 1:00: Herunterfahren d. Leistung (3000 \textrightarrow\ 1000 \(MW_{therm}\))
+  \item Leistungsnachfrage \textrightarrow\ Herunterfahren bei 1600 MW unterbrochen
+  \begin{enumerate}[label = \textrightarrow]
+    \item Aufbau v. Xe-135
+    \item Reaktivitätsreserve kleiner als zulässiger Wert
+    \item \textbf{Sofortige Abschaltung hätte erfolgen müssen}
+  \end{enumerate}
+  \item 14:00: Notkühlsystem ausgeschalten (Testvorgabe)
+  \item Wieder Leistungsnachfrage: Test unterbrochen
+  \begin{enumerate}[label = \textrightarrow]
+    \item \textbf{Notkühlsystem hätte wieder eingeschalten werden müssen}
+  \end{enumerate}
+  \item 23:00: Weiterführung d. Tests \textrightarrow\ Leistung wieder gesenkt
+  \item 0:00: Schichtwechsel
+  \item \textbf{Bedienungsfehler: Leistung sinkt auf 30MW (Mindestleistung 200MW)}
+  \begin{enumerate}[label = \textrightarrow]
+    \item Wg Xe-135: Steuerstäbe müssen zur Leistungserhöhung gezogen werden
+    \item Erreicht werden 200MW
+  \end{enumerate}
+  \item 1:00: Turbineneinlassventile geschlossen
+  \item 2 Hauptkühlmittelpumpen eingeschalten (Simulation Stromverbrauch)
+  \begin{enumerate}[label = \textrightarrow]
+    \item Dampfblasengehalt reduziert
+    \item Reaktivität sinkt
+    \item Kompensation: Weiteres Ausfahren d. Steuerstäbe
+  \end{enumerate}
+  \item 1:30: Testbeginn, Schließen Turbinenschnellschlussventile
+  \begin{enumerate}[label = \textrightarrow]
+    \item T steigt
+    \item Leistungsanstieg
+    \item Steuerstäbe eingefahren (zu langsam)
+    \item n-Fluss steigt
+    \item Xe-135 wird abgebaut
+    \item Reaktor schaukelt sich hoch
+  \end{enumerate}
+  \item Notabschaltung d. Schichtleiter
+  \begin{enumerate}[label = \textrightarrow]
+    \item Alle Stäbe einfahren
+    \item Graphitspitzen erhöhen Reaktivität
+    \item Prompte Kritikalität
+    \item Leistungsexkursion
+    \item Chemische Explosion, Graphitfeuer
+  \end{enumerate}
+  \item nach 3h: Meldung Reaktor sei Intakt
+  \item nach 1 Tag: Block mit Material zugeschüttet
+
+\end{itemize}
+
+\subsubsection{Quellterm}
+\begin{itemize}
+  \item 100\% Xenon
+  \item 50\% Iod
+  \item 30\% Cäsium
+\end{itemize}
+
+\subsubsection{Ursachen}
+\begin{itemize}
+  \item Kernauslegung
+  \begin{itemize}
+    \item Positiver Void-Koeffizent
+    \item Positiver Abschalteffekt
+    \item Unzureichende Wirksamkeit d. Abschalteeinrichtungen
+  \end{itemize}
+  \item Unzureichende Wahrnehmung v. Sicherheit
+  \begin{itemize}
+    \item Keine unabhängige Sicherheitsbehörde
+    \item Lieferschwierigkeiten f. Anlagenteile
+  \end{itemize}
+  \item Mängel im Versuchsprogramm
+  \begin{itemize}
+    \item Ausarbeitung d. Elektroingenieur
+    \item Keine Abstimmung m. Sicherheitspersonal
+    \item Zeitliche Verschiebungen \textrightarrow\ Schichtwechsel
+  \end{itemize}
+  \item Verstöße gegen Betriebsvorschriften
+  \begin{itemize}
+    \item Keine Erfahrung mit An/Abfahrprozessen (falsche Schicht)
+    \item Unterschreitung Mindestwert Reaktivitätsreserve
+    \item Unterschreitung d. vorgesehenen Werts f. thermischen Leistung 
+  \end{itemize}
+  \item Ausbildungsmängel: keine Simulatoren, Sicherheitsanalysen
+  \item Instrumentierungsmängel: keine Instrumentierung f. Zustände geringer Leistung
+\end{itemize}
+
+\subsection{Fukushima - 1 / Daiichi}
+
+\subsubsection{Allgemein}
+\begin{itemize}
+  \item Kontrollstäbe \(B_4C\, Hf\)
+  \item Containment in Betrieb mit \(N_2\) inertisiert
+  \item Wetwell-Torus z. Druckentlastung (durch Kondensation)
+\end{itemize}
+
+\subsubsection{Ursachen}
+\begin{itemize}
+  \item Erdbeben: Alle Reaktoren heruntergefahren\\
+  \textrightarrow\ \textbf{Loss of Offsite Power}
+  \item Tsunami: zu Hoch
+  \begin{itemize}
+    \item Dieselgeneratoren nicht operativ
+    \item Generatoren selbst hoch genug
+    \item Batterien/Verteiler zu tief\\
+    \textrightarrow\ \textbf{Kein Notstrom}
+  \end{itemize}
+  \item Resultat
+  \begin{enumerate}[label = \textrightarrow]
+  \item \textbf{Station Blackout}
+  \item Alle Pumpen nicht operativ (auch ECCS)
+  \end{enumerate}
+\end{itemize}
+
 
 \end{document}
