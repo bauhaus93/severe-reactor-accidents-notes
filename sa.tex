@@ -1417,6 +1417,12 @@
 	\item Problem: Wigner-Energie
 \end{itemize}
 
+\subsubsection{Probleme}
+\begin{itemize}
+	\item Falsche Instrumentenanzeige
+	\item Unklarheit Reaktorzustand
+\end{itemize}
+
 \subsubsection{Unfallverlauf}
 \begin{enumerate}
 	\item Ausglühvorgang gestartet (CR ziehen)
@@ -1429,18 +1435,30 @@
 	\item Nach 1 Tag mit Wasser gelöscht, T war 1300°C
 \end{enumerate}
 
-\subsubsection{Probleme}
-\begin{itemize}
-	\item Falsche Instrumentenanzeige
-	\item Unklarheit Reaktorzustand
-\end{itemize}
-
 \subsection{Three Mile Island-2 (1979)}
 
 \subsubsection{Allgemein}
 \begin{itemize}
 	\item PWR
+	\item PORV (Pilot Operated Relief Valve)
+		\begin{itemize}
+			\item Limitiert Druck im Kühlkreislauf
+			\item Überdruck in RCDT
+		\end{itemize}
+	\item RCDT (Reactor Coolant Drain Tank)
+		\begin{itemize}
+			\item Dampf kondensiert dort, zurück in Primärkreislauf
+			\item Bei Überdruck: Berstscheibe bricht, Dampf in Containment
+		\end{itemize}
 \end{itemize}
+
+\subsubsection{Probleme}
+\begin{itemize}
+	\item Auslöser: Fehlfunktion Ventil Speiseleitung \textrightarrow SG trocken
+	\item Signal verdeckt: PORV bleibt offen \textrightarrow unbemerkter LOCA
+	\item Operator ignoriert Start von HPCI/stoppt es, glaubt Primärsystem mit Wasser gefüllt
+\end{itemize}
+
 
 \subsubsection{Unfallverlauf}
 \begin{enumerate}
@@ -1462,8 +1480,7 @@
 			\item PORV schließt nicht mehr (Signal verdeckt)
 			\item Small Break LOCA
 		\end{enumerate}
-	\item \textasciitilde 2m: Dampfgeneratoren trocken
-	\item \textasciitilde 2m: Druck sinkt
+	\item 2m: Dampfgeneratoren trocken, Druck sinkt wegen PORV
 		\begin{enumerate}[label = \textrightarrow]
 			\item Start ECCS (HPCI)
 			\item Ignoriert v. Operator, ist immer wieder mal losgegangen
@@ -1515,14 +1532,37 @@
 		\end{itemize}
 \end{itemize}
 
+\subsection{Tschernobyl (1986)}
+
 \subsubsection{Probleme}
 \begin{itemize}
-	\item Auslöser: Fehlfunktion Ventil Speiseleitung \textrightarrow SG trocken
-	\item Signal verdeckt: PORV bleibt offen \textrightarrow unbemerkter LOCA
-	\item Operator ignoriert Start von HPCI/stoppt es, glaubt Primärsystem mit Wasser gefüllt
+	\item Kernauslegung
+		\begin{itemize}
+			\item Positiver Void-Koeffizent
+			\item Positiver Abschalteffekt
+			\item Unzureichende Wirksamkeit d. Abschalteeinrichtungen
+		\end{itemize}
+	\item Unzureichende Wahrnehmung v. Sicherheit
+		\begin{itemize}
+			\item Keine unabhängige Sicherheitsbehörde
+			\item Lieferschwierigkeiten f. Anlagenteile
+		\end{itemize}
+	\item Mängel im Versuchsprogramm
+		\begin{itemize}
+			\item Ausarbeitung d. Elektroingenieur
+			\item Keine Abstimmung m. Sicherheitspersonal
+			\item Zeitliche Verschiebungen \textrightarrow\ Schichtwechsel
+		\end{itemize}
+	\item Verstöße gegen Betriebsvorschriften
+		\begin{itemize}
+			\item Keine Erfahrung mit An/Abfahrprozessen (falsche Schicht)
+			\item Unterschreitung Mindestwert Reaktivitätsreserve
+			\item Unterschreitung d. vorgesehenen Werts f. thermischen Leistung
+		\end{itemize}
+	\item Ausbildungsmängel: keine Simulatoren, Sicherheitsanalysen
+	\item Instrumentierungsmängel: keine Instrumentierung f. Zustände geringer Leistung
 \end{itemize}
 
-\subsection{Tschernobyl (1986)}
 
 \subsubsection{Abschaltesystem}
 \begin{itemize}
@@ -1602,35 +1642,6 @@
 	\item 30\% Cäsium
 \end{itemize}
 
-\subsubsection{Probleme}
-\begin{itemize}
-	\item Kernauslegung
-		\begin{itemize}
-			\item Positiver Void-Koeffizent
-			\item Positiver Abschalteffekt
-			\item Unzureichende Wirksamkeit d. Abschalteeinrichtungen
-		\end{itemize}
-	\item Unzureichende Wahrnehmung v. Sicherheit
-		\begin{itemize}
-			\item Keine unabhängige Sicherheitsbehörde
-			\item Lieferschwierigkeiten f. Anlagenteile
-		\end{itemize}
-	\item Mängel im Versuchsprogramm
-		\begin{itemize}
-			\item Ausarbeitung d. Elektroingenieur
-			\item Keine Abstimmung m. Sicherheitspersonal
-			\item Zeitliche Verschiebungen \textrightarrow\ Schichtwechsel
-		\end{itemize}
-	\item Verstöße gegen Betriebsvorschriften
-		\begin{itemize}
-			\item Keine Erfahrung mit An/Abfahrprozessen (falsche Schicht)
-			\item Unterschreitung Mindestwert Reaktivitätsreserve
-			\item Unterschreitung d. vorgesehenen Werts f. thermischen Leistung
-		\end{itemize}
-	\item Ausbildungsmängel: keine Simulatoren, Sicherheitsanalysen
-	\item Instrumentierungsmängel: keine Instrumentierung f. Zustände geringer Leistung
-\end{itemize}
-
 \subsection{Fukushima - 1 / Daiichi (2011)}
 
 \subsubsection{Allgemein}
@@ -1640,7 +1651,7 @@
 	\item Wetwell-Torus z. Druckentlastung (durch Kondensation)
 \end{itemize}
 
-\subsubsection{Ursachen}
+\subsubsection{Probleme}
 \begin{itemize}
 	\item Erdbeben: Alle Reaktoren heruntergefahren\\
 		\textrightarrow\ \textbf{Loss of Offsite Power}
@@ -1648,14 +1659,13 @@
 		\begin{itemize}
 			\item Dieselgeneratoren nicht operativ
 			\item Generatoren selbst hoch genug
-			\item Batterien/Verteiler zu tief\\
-				\textrightarrow\ \textbf{Kein Notstrom}
+			\item Batterien/Verteiler zu tief
+				\begin{enumerate}[label = \textrightarrow]
+					\item Kein Notstrom
+					\item \textbf{Station Blackout}
+					\item Keine Pumpen operati (auch ECCS)
+				\end{enumerate}
 		\end{itemize}
-	\item Resultat
-		\begin{enumerate}[label = \textrightarrow]
-			\item \textbf{Station Blackout}
-			\item Alle Pumpen nicht operativ (auch ECCS)
-		\end{enumerate}
 \end{itemize}
 
 \subsubsection{Reaktorzustände}
@@ -1785,4 +1795,4 @@
 		\end{itemize}
 \end{itemize}
 
-\end{document}
+	\end{document}
