@@ -13,8 +13,8 @@
 \usepackage{subcaption}
 \usepackage{enumitem}
 
-
 \begin{document}
+
 \thispagestyle{empty}
 
 \section{Reaktortypen/Sicherheitskonzepte}
@@ -22,7 +22,7 @@
 \subsection{Siedewasserrekator}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kühlmittel: Wasser
 	\item Moderator: Wasser
 	\item Absorber: Borcarbid (\(B_4C\))
@@ -37,10 +37,10 @@
 \end{itemize}
 
 \subsubsection{Sicherheit}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Negativer Void-Koeffizent (Mehr Dampf \textrightarrow\ Weniger Reaktivität)
 	\item 2 unabhängige Abschaltsysteme
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Steuerstäbe einfahren (Hydraulisches System, Steuerstäbe sind ja unten)
 			\item Einspeisung Borsalzlösung
 		\end{itemize}
@@ -52,7 +52,7 @@
 \subsection{Druckwasserreaktor}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kühlmittel: Wasser (entsalzt)
 	\item Moderator: Wasser (entsalzt)
 	\item Absorber: Silber, Indium, Cadmium
@@ -66,16 +66,16 @@
 \end{itemize}
 
 \subsubsection{Sicherheit}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Siehe BWR
 	\item Unterschied Abschaltesystem
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Steuerstäbe fallenlassen (werden durch Elektromagneten gehalten, Schwerkraft)
 		\end{itemize}
 \end{itemize}
 
 \subsection{RBMK (Druckröhrenreaktor)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kühlmittel: Wasser
 	\item Moderator: Graphit (Brennbar)
 	\item Absorber: Borcarbid
@@ -88,20 +88,20 @@
 \subsection{Diverse Reaktoren}
 
 \subsubsection{CANDU (Natururanreaktor)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kühlmittel: Schweres Wasser
 	\item Moderator: Schweres Wasser
 \end{itemize}
 
 \subsubsection{Graphitmoderierter Reaktor (AGR)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kühlmittel: \(CO_2\)
 	\item Moderator: Graphit
 	\item Höhere Temperaturen, besserer Dampf
 \end{itemize}
 
 \subsubsection{Hochtemperaturreaktor}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Höhere Temperaturen (1000°C), für höhere thermische Effizenz
 	\item \(CO_2\) nur bis 800°C, sonst desintegriert zu C und O
 	\item Deswegen Helium: Stabil bei hohen T, chemisch inert, keine Aktivierung
@@ -110,7 +110,7 @@
 \end{itemize}
 
 \subsubsection{Schneller Brüter}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kühlmittel: Flüssiges Metall (Na, keine Moderation, heftige Reaktion mit Wasser)
 	\item Moderator: Keiner
 	\item Brutstoff: Natururan
@@ -120,7 +120,7 @@
 \end{itemize}
 
 \subsection{Reaktortypen - Verbreitung}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item PWR: \textasciitilde 270 (USA, Fr, Jp, Ru)
 	\item BWR: \textasciitilde 90 (USA, Jp, Sw)
 	\item CANDU: \textasciitilde 40 (Ca)
@@ -128,16 +128,16 @@
 \end{itemize}
 
 \subsection{Anlagenzustände}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Normalbetrieb, inkl. Störungen ohne Sicherheitsbedeutung
 	\item Störfall
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Betrieb kann Sicherheitsbedingt nicht fortgesetzt werden
 			\item Anlage so konzipiert, dass Ereignis beherrscht werden kann
 			\item Auslegungsstörfall (\textbf{DBA}, Design Basis Accident, früher GAU)
 		\end{itemize}
 	\item Unfall
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Sehr kleine Eintrittswahrscheinlichkeit
 			\item Keine gezielten Maßnahmen zur Verhinderung existent
 			\item Auslegungsüberschreitender Störfall (\textbf{BDBA}, Beyond Design Basis Accident)
@@ -148,12 +148,12 @@
 \subsection{Unfalleinteilungen}
 
 \subsubsection{NRC (Nuclear Regulatory Commission)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Klasse 1: Trivialer Unfall
 	\item Klasse 2: geringe Freisetzung außerhalb Containment
 	\item Klasse 8: DBA: LOCA, Rod Drop Acc
 	\item Klasse 9:
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Gleichzeitige Failure On/Off-Site Power + LOCA
 			\item Plötzliches RDB bersten
 			\item Extrem unwahrscheinlich angenommen
@@ -162,16 +162,16 @@
 \end{itemize}
 
 \subsubsection{IAEA}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item 0: keine, geringe Sicherheitstechnische Bedeutung
 	\item 1-3 Störfall
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Ausfall gestaffelter Sicherheitseinrichtungen
 			\item Kontaminierung von Personal
 			\item Sehr geringe Freisetzung
 		\end{itemize}
 	\item 4-6: Unfall
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Schäden am Reaktorkern
 			\item Tod von Personal
 			\item Steigende Freisetzung in Umwelt
@@ -182,7 +182,7 @@
 \section{Sicherheitrelevante Phänomene eines Reaktors}
 
 \subsection{n-Haushalt}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Abbrand: Brennstoff wird verbraucht
 	\item Brüten: Brennstoff entsteht
 	\item Vergiftung: Spaltprodukte mit großem Absorptionsquerschnitt
@@ -190,32 +190,32 @@
 \end{itemize}
 
 \subsection{Unterscheide}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Multiplikationsfaktor: k
 	\item Reaktivität: \(\rho\)
 	\item Reaktivitätskoeffizent: \(\alpha_x\)
 \end{itemize}
 
 \subsection{Reaktorkinetik}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Multiplikationsfaktor k, gilt für alle n
 	\item Prompte n: bei Kernspaltung erzeugt
 	\item Verzögerte n: durch Zerfall von Spaltprodukten, \(\beta\)
 	\item \textbf{Verzögert Überkritisch}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item \(1 < k < 1 + \beta\)
 			\item Reaktorleistung steigt an, aber nur durch verzögerte n
 			\item Reaktor regelbar
 		\end{itemize}
 	\item \textbf{Prompt Kritisch}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item \(k = 1 + \beta\)
 			\item Grenze der Regelbarkeit
 			\item Prompte n genügen zur Aufrechterhaltung der Kettenreaktion
 			\item Unsicher, kleinste Änderung von k kann Anordnung Prompt Überkritisch machen
 		\end{itemize}
 	\item \textbf{Prompt Überkritisch}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item \(k > 1 + \beta\)
 			\item Exponentieller Leistungsanstieg
 			\item Nicht Regelbar
@@ -224,7 +224,7 @@
 
 \subsection{Reaktivitätskoeffizent}
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item \textbf{Reaktivität}: \(\rho = \frac{k_{eff} - 1}{k_{eff}}\) in \$/\%
 	\item Abweichung des Multiplikationsfaktors \(k_{eff}\) von \(k_{eff} = 1\)
 	\item \textbf{Reaktivitätskoeffizent}: \(\alpha_x = \frac{d\rho}{dX}\)
@@ -246,78 +246,78 @@
 	\xrightarrow[2.6\cdot10^4a]{\beta^-}
 	Ba^{135} \text{(Stabil)}
 \]
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Fluß: Neutronenfluß/Neutronenflußdichte\\
 		Summe aller Wege, die von n in einem Raum/Zeitbereich zurückgelegt werden
 	\item Neutronengift: Xe-135, Sm-149, Pm-149, J-135
 	\item Xe-135 entsteht aus 2-stufigem \(\beta^-\)-Verfall von Te-135 (0.003)
 	\item Gleichgewichtigkeitskonzentration nach ca. 30 h erreicht
 	\item Xenonaufbau Ortsabhängig
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Zurerst in Flußhöherer Zone J-135
 			\item Verzögert entsteht Xe-135
 			\item Fluß verlagert sich in andere Zone \textrightarrow\ Schwingungen
 		\end{itemize}
 	\item Beim Abschalten (Fluß = 0)
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item J-135 zerfällt schneller (zu Xe-135) als Xe-135 (zu Cs-135) \textrightarrow\ Reaktivität sinkt
 			\item Beim Hochfahren dann: Überschussreaktivität benötigt
 		\end{itemize}
 \end{itemize}
 
 \subsection{Nuklearer Dopplereffekt}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Je heißer Brennstoff, desto mehr Neutronen absorbiert
 	\item Resultat: Weniger Reaktivität, passiert sofort
 \end{itemize}
 
 \subsection{Wigner-Energie}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item n-Energie umgewandelt in Deformationen des Kristallgitters (z.B. C)
 	\item Wird über Wärmeausbrüche freigesetzt
 	\item Gezielte Freisetzung (Ausglühen) möglich (\(\Delta T = 250K\))
 \end{itemize}
 
 \subsection{Sicherheitsfragen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Sicherstellung: System nie prompt Überkritisch
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item \(\alpha_{tot} < 0\)
 			\item Sonst RIA \textrightarrow\ Reactivity Initiated Accident
 		\end{itemize}
 	\item Sicherstellung: keine Freisetzung von Spaltprodukten in Umwelt
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item 5 Barrieren
 		\end{itemize}
 \end{itemize}
 
 \subsection{Sicherheitskonzepte}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item \textbf{Redundanz}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Wichtige Systemfunktion mehrfach vorhanden
 			\item Sichere Schließfunktion: Serielle Ventile
 			\item Sichere Öffnungsfunktion: Parallele Ventile
 		\end{itemize}
 	\item \textbf{Diversität}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Zwei Reaktorabschaltsysteme mit physikalisch unterschiedlicher Funktion
 			\item Steuerstäbe
 			\item Wasser mit Borzusatz
 		\end{itemize}
 	\item \textbf{Räumliche Trennung}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Sicherheitstechnische Komponenten räumlich getrennt
 			\item Vierfach-Redundantes System, aufgeteilt in Vier Viertel
 		\end{itemize}
 	\item \textbf{Barrieren}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item PWR/BWR: Brennstoffkristallgitter, Brennstabhülle, RDB, Sicherheitsbehälter
 		\end{itemize}
 	\item \textbf{Sicherheitsysteme zur Barrierenerhaltung (diversitär + redundant)}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item \textbf{Kernnotkühlsysteme} (ECCS, Emergency Core Cooling Systems)
-				\begin{itemize}
+				\begin{itemize}[noitemsep]
 					\item \textbf{Hochdruckeinspeisesystem (HPCI)},
 						\begin{enumerate}[label = \textrightarrow]
 							\item High Pressure Coolant Injection System
@@ -347,7 +347,7 @@
 				\end{itemize}
 
 			\item \textbf{Nachwärmeabfuhrsysteme}
-				\begin{itemize}
+				\begin{itemize}[noitemsep]
 					\item Essential Service Water System (ESWS)
 						\begin{enumerate}[label = \textrightarrow]
 							\item Wasser aus z.B. Fluss
@@ -356,7 +356,7 @@
 				\end{itemize}
 
 			\item \textbf{Emergency Electrical Systems}
-				\begin{itemize}
+				\begin{itemize}[noitemsep]
 					\item Dieselgeneration
 					\item Batterien
 				\end{itemize}
@@ -367,20 +367,20 @@
 \subsection{Auslösende Ereignisse eines Unfalls}
 
 \subsubsection{Transienten}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kurzeitige Änderung des Energielevels/eines Wertes
 	\item z.B. weil Änderung Kühlmitteltemperatur/druck
 \end{itemize}
 
 \subsubsection{Interne Ereignisse}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Station Blackout: Vollständiger Verlust d. Stromversorgung
 	\item \textbf{ATWS}, Anticipated Transients withouth SCRAM
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Unfall mit Behinderung der Wärmeabfuhr bei Versagen der Schnellabschaltung
 		\end{itemize}
 	\item \textbf{LOCA}, Kühlmittelverlust, Leck in
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Hauptkühlmittelleitung,
 			\item Druckhaltesystem (Defektes Ventil)
 			\item Dampferzeuger
@@ -388,7 +388,7 @@
 			\item Anschlussleitung Kühlmittelkreislauf
 		\end{itemize}
 	\item \textbf{Transienten}, Änderung von
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Leistungserzeugung
 			\item Leistungsabfuhr (weil Änderung Speisewasserzufuhr/Dampfentnahme)
 			\item Kühlmittelumwälzung
@@ -398,19 +398,19 @@
 \end{itemize}
 
 \subsubsection{Externe Ereignisse}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Erdbeben, Tsunami, Tornado, Brand, Flugzeugabsturz
 \end{itemize}
 
 \subsection{Reaktorsicherheit - Forschungszentren}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Forschungszentren Karlsruhe, heute KIT (D)
 	\item Cadarache (F)
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item PHEBUS
 		\end{itemize}
 	\item Idaho National Engineering Laboratory (INEL, USA)
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item BORAX (BWR Experiments)
 			\item PBF (Power Burst Facility)
 			\item LOFT (Loss-of-Fluid Tests)
@@ -420,20 +420,20 @@
 \section{Sicherheitsstudien}
 
 \subsection{Methoden d. Sicherheitsanalyse}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Deterministisch: Auswirkung aufgrund v. Ursachen/Randbedingungen
 	\item Probabilistisch: Technisches Versagen Frage der Zeit \textrightarrow\ Risikoberechnung
 \end{itemize}
 
 \subsection{Probabilistische Sicherheitsanalyse (PSA)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item PSA-1: Ermittlung d. Häufigkeit von Kernschäden (CDF, Core Damage Frequency)
 	\item PSA-2: Ermittlung d. Abläufe eines schweren Unfalls
 	\item PSA-3: Analyse d. Folgen einer Ausbreitung von Radioaktivität in die Umwelt
 \end{itemize}
 
 \subsection{Ereignisbaumanalyse (ETA)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Methode zur Bestimmung möglicher Folgen eines Fehlers
 	\item Binärer Baum, Unfallsequenzen
 	\item Abzweigungen mit Fehlerwarscheinlichkeiten
@@ -441,38 +441,38 @@
 \end{itemize}
 
 \subsection{Fehlerbaumanalyse (FTA)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Methode zur Fehlerauffindung
 	\item Liefert Kombinationsmöglichkeiten, die zu einem Fehler führen können
 	\item Bool'sche Algebra
 \end{itemize}
 
 \subsection{Sicherheitsstudien}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item \textbf{WASH-740 (1957)}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Theoretical Possibilites \& Consequences of Major Accidents in large NPP
 		\end{itemize}
 
 	\item \textbf{WASH-1400 (1975)}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Reactor Safety Study
 			\item Rasmussen Studie
 		\end{itemize}
 
 	\item \textbf{Dt. Risikostudie A (1979)}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Störfallbedingte Risiken durch KKW in D
 			\item Ergebnisse v. WASH-1400 auf dt. KKW bezogen
 		\end{itemize}
 
 	\item \textbf{Dt. Risikostudie B (1989)}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Anlagentechnische Sicherheitsanalyse zur Ermittlung sicherheitsrelevanter Schwachstellen
 		\end{itemize}
 
 	\item \textbf{NUREG (ab 1981)}
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Quelltermverhalten, immer wieder neu evaluiert
 			\item NUREG/CR-4587 (1986): Source Term Code Package (STCP)
 			\item NUREG-0956 (1986): Vorstellung SA-Codes
@@ -483,7 +483,7 @@
 		\end{itemize}
 
 	\item Andere
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item OEFZS-A-2770: Internationale Quelltermstudien (1990)\\
 				Erstmals für WWER, Wasser-Wasser-Energie-Reaktor, russischer PWR
 			\item Erste Fr PSA: 1990, Updates 2003, 2005?
@@ -494,10 +494,10 @@
 \subsection{WASH-1400 (Rasmussen Studie)}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item 2 Referenzanlagen: Peach Bottom (BWR), Surry (PWR)
 	\item 4 auslösende Ereignisklassen
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item LOCA
 			\item Transienten
 			\item RDB-Versagen
@@ -507,36 +507,36 @@
 	\item Keine unwahrscheinliche Ereignisse
 	\item Rechnungen mit Code CORRAL
 	\item Quellterm eingeteilt
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item 9 Freigabekategorien für PWR
 			\item 4 Freigabekategorien für BWR
 		\end{itemize}
 \end{itemize}
 
 \subsubsection{Accident Sequence Symbols, Beispiele}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item PWR
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item A \textrightarrow\ Intermediate to large LOCA
 			\item C \textrightarrow\ Failure of Containment Spray System
 			\item TMLB'-\(\alpha\) \textrightarrow\ Station Blackout mit Containmentversagen durch Dampfexplosion
 		\end{itemize}
 	\item BWR
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item A \textrightarrow\ Rupture of reactor coolant boundary diameter \(>6\) inch
 			\item E \textrightarrow\ Failure of Emergency Core Cooling Injection
 		\end{itemize}
 \end{itemize}
 
 \subsubsection{Resultate}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item KS = Kernschmelze
 	\item Hauptbeitrag zur KS-wahrscheinlichkeit: Transienten, kleine LOCAs
 	\item Geschätzte Frequenz für KS höher als bisher angenommen
 	\item Konsequenzen von KS geringer als bisher angenommen
 	\item Risiko kleiner als in WASH-740 angegeben (Risiko = Eintrittwahrscheinlichkeit * Schwere)
 	\item Bewertung 2011
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Nicht mehr Aktuell
 			\item Teilweise konservativ
 			\item Andere Unfallabläufe durch Nachrüstungen
@@ -546,7 +546,7 @@
 \end{itemize}
 
 \subsection{NUREG-1150 (Reactor Risk Reference Document)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Referenzanlagen: 5 typische US-KKWS, 3 PWR, 2 BWR
 	\item 25 verschiedene Szenarien
 	\item Rechnung mit STCP, MELCOR, CONTAIN
@@ -554,7 +554,7 @@
 \end{itemize}
 
 \subsection{Deutsche Risikostudie Phase A}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Referenzanlage: Biblis B
 	\item Rechnung mit ALMOD (Anlagenverhalten), CORRAL II (Spaltproduktfreisetzung)
 	\item 100 Sequenzen untersucht
@@ -565,13 +565,13 @@
 \end{itemize}
 
 \subsection{Deutsche Risikostudie Phase B}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Referenzanlage: Biblis B
 	\item Neubearbeitung unter Einbeziehung neuer Erkenntnisse
 	\item 32 Auslösende Ereignisse
 	\item 19 Schadenszustände bei Ausfall Wärmeabfuhr
 	\item 6 Kernschmelzfälle, z.B.
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item ND: Niedriger Druck in Primärkreis, nach früher Entlastung durch auslösendes Ereignis
 			\item ND*: Niedriger Druck in Primärkreis, nach später Entlastung durch Notfallmaßnahmen
 			\item HD: Hoher Druck in Primärkreis
@@ -579,7 +579,7 @@
 			\item DE-ND*/HD: Leck Dampferzeuger
 		\end{itemize}
 	\item Freisetzungsmöglichkeiten, z.B.
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Allgemein: Containment: Versagen, Umgehung, Gezielte Freisetzung
 			\item AF-SBV: Großflächiges Sicherheitsbehälterversagen oberhalb der Fundamentplatte
 			\item AF-DF: Freisetzung ins Grundwasser, infolge durchschmelzens des SB und Fundamentplatte
@@ -593,7 +593,7 @@
 \subsection{Barriere 1 - Brennstoff}
 
 \subsubsection{Brennstoffarten}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Pellets, gestapelt in Brennstab
 	\item Oxide: \(UO_x, MO_x\)
 	\item Metall: Aktinide
@@ -602,7 +602,7 @@
 \end{itemize}
 
 \subsubsection{Urandioxid}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Schmelzpunkt: ~3200K
 	\item Pellets bei 95\% theoretischer Dichte
 	\item Freies Volumen für Spaltproduktfreisetzung
@@ -610,7 +610,7 @@
 \end{itemize}
 
 \subsubsection{Spaltproduktinventar}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item 100\% Freisetzung: Edelgase (Xe, Kr)
 	\item Hoch Flüchtig: Halogene, Alkalimetalle (I, Br, Cs)
 	\item Flüchtig: Erdalkali, Metalllegierungen
@@ -618,14 +618,14 @@
 \end{itemize}
 
 \subsubsection{Freisetzung in intaktem Brennstoff}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Diffusion, Knockout, Recoil
 	\item Swelling: Gasblasen in Pellet
 	\item Cracking (Spaltbildung) v. Pellets bei \(T < 1000\)°C (keine Plastizität)
 	\item Kriechen (Verformung) v. Pellets bei \(T > 1100\)°C (Plastizität)
 	\item Spalt zw. Pellet-Cladding (He Gas) \textrightarrow\ thermischer Widerstand
 	\item Bei Ausdehnung: Bildung v. Cracks \textrightarrow\ Verlagerung Pelletsegmente
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Blockierung des Hüllrohrs
 			\item Anstieg Wärmefluss im Spalt
 			\item Verringerung Wärmefluss bei \(UO_2\) weil Spalt
@@ -636,7 +636,7 @@
 \subsection{Barriere 2 - Hüllrohr}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Material: Zircaloy (-2 BWR, -4 PWR)
 	\item Phasenumwandlung: ~1200 K
 	\item Schmelzpunkt: ~2100 K
@@ -644,13 +644,13 @@
 \end{itemize}
 
 \subsubsection{Physikalische Effekte}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Thermische Ausdehnung (Umfang)
 	\item Verlagerung der Pellets (assymetrische T-Verteilung \textrightarrow\ Spannungen)
 	\item Druck/Spannung durch Kühlmittel von Aussen
 	\item Kriechen durch n-Fluss
 	\item Kalte Regelstäbe
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Tests: REBEKA
 			\item Brennstäbe um kalten Regelstab
 			\item Bersten auf Außenseite
@@ -659,26 +659,26 @@
 \end{itemize}
 
 \subsubsection{Effekte im Spalt}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Spaltproduktfreisetzung von Pellet in Spalt \textrightarrow\ Druckanstieg \textrightarrow\ \textbf{Ballooning}
 	\item Pelletausdehnung \textrightarrow\ Kontakt \textrightarrow\ Spannungen \textrightarrow\ \textbf{Bambooing}
 	\item Bei kritischen Spannungen: Riss im Hüllrohr
 \end{itemize}
 
 \subsubsection{Chemische Effekte}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Hüllrohr-Oxidation
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Zircaloy-Dampf-Reaktion
 			\item stark T abhängig, exotherm
 			\item ab ~1500°C zusätzlicher Anstieg der Oxidationsrate
 		\end{itemize}
 	\item \(UO_2-Zry\) Wechselwirkung
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Entstehung von \(ZrO_2\)
 		\end{itemize}
 	\item \(UO_2\) Auflösung durch geschmolzenes Zircaloy
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Tests: CORA-13
 			\item Abhängig von Oxidation
 			\item Beim Schmelzen v. Zry: \(UO_2, ZrO_2\) weit unter Schmelzpunkt verflüssigt
@@ -689,15 +689,15 @@
 \end{itemize}
 
 \subsubsection{Temperaturverhalten}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item 1100K: Schmelpunkt Ag, In, Cd
 	\item ~1200K:
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Bersten d. Brennstäbe, Beginn Spaltproduktfreisetzung
 			\item Verstärkte Zry-Oxidation
 		\end{itemize}
 	\item ~1400K:
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Zerstörung BWR Steuerstäbe, Stahl-Borkarbid Eutektikum
 			\item Zerstörung PWR Steuerstäbe, Zry-Ag Eutektikum
 			\item Zry-Dampf-Reaktion
@@ -713,22 +713,22 @@
 \end{itemize}
 
 \subsubsection{Siedearten}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Naturkonvektion
 	\item Keimsieden:
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item DNB \textrightarrow Departure of Nucleate Boiling
 			\item Dampfblasen an Oberfläche \textrightarrow Isolierend
 			\item Wärmeübertragung sinkt
 		\end{itemize}
 	\item Übergangssieden
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Dampffilm und Flüssigkeitsschicht
 			\item Wärmeübertragung sinkt
 			\item Minimum bei Leidenfrost-Punkt
 		\end{itemize}
 	\item Stabiles Filmsieden
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Stabiler Dampffilm
 			\item Wärme nur durch Strahlung übertragen
 			\item Heizer brennt durch
@@ -737,7 +737,7 @@
 \end{itemize}
 
 \subsubsection{Strömungformen beim Strömungssieden}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Oberflächensieden: Blasen kondensieren wieder
 	\item Pfropfenbildung der Blasen
 	\item Ringströmung (Filmsieden): Zentrum d. Kanals voller Dampf, Flüssigkeitsfilm an Wand
@@ -748,7 +748,7 @@
 \end{itemize}
 
 \subsubsection{Kühlmechanismem beim Fluten (Quenchen)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Wasser
 	\item Wasser bei Keimsieden
 	\item Wasser bei Filmsieden
@@ -757,14 +757,14 @@
 \end{itemize}
 
 \subsubsection{\(H_2\) Produktion}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item \(Zr + 2 H_2O \Leftrightarrow ZrO_2 + 2 H_2 + \Delta\)
 	\item Exotherme Reaktion, bei hohen T
 	\item Bei LOCA, Fluten
 \end{itemize}
 
 \subsubsection{Air-Ingress}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Eindringen von Luft in System
 	\item Oxidation viel besser als mit Dampf
 	\item Reaktionswärme 85\% höher \textrightarrow\ beschleunigt Oxidation
@@ -778,7 +778,7 @@
 \subsection{Barriere 3 - Druckbehälter}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Material: ferritscher Stahl, innen Cr/Ni Anteil
 	\item Dicke: 20-30cm
 	\item Primärkreisläufe: meist 4
@@ -789,12 +789,12 @@
 \end{itemize}
 
 \subsubsection{Physikalische Effekte}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Schmelze ab \textasciitilde 2700K
 	\item Bewegt sich nach unten
 	\item Strukturmaterial kann Wärme aufnehmen \textrightarrow Verfestigung möglich
 	\item Schmelzsee sammelt sich unten, Gefährdet Integrität d. Behälters
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item DCH (Direct Containment Heating)
 			\item Dampfexplosion
 			\item Wechselwirkung mit Corium
@@ -803,11 +803,11 @@
 \end{itemize}
 
 \subsubsection{Physikalische Effekte bei Maßnahmen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Muss bei Erstellung von Unfallrichtlinien beachtet werden
 	\item Wasser ja/nein?
 	\item Bei Kühlung durch Wasser (Fluten)
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Gefahr T-Spitze
 			\item \(H_2\) Spitze + p-Spitze
 			\item Knallgasexplosion
@@ -816,7 +816,7 @@
 \end{itemize}
 
 \subsubsection{Wärmeübergänge}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Strahlung
 	\item Konvektion (nach oben)
 	\item Konvektion zu Behälter
@@ -824,25 +824,25 @@
 \end{itemize}
 
 \subsubsection{Bruch}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Duktiles/Zähes Versagen
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Elastische Verformung
 			\item Bis erreichen d. Bruchspannung
 		\end{itemize}
 	\item Sprödes Versagen
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Entstehung/Wachsen von Rissen
 		\end{itemize}
 	\item Bei mehr T
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Ab 800K \textrightarrow\ Verlust Festigkeit d. Stahlbehälters
 			\item Versagen d. Kriechen (Verformung unter Last)
 		\end{itemize}
 \end{itemize}
 
 \subsubsection{Bruch - Schmelzfreisetzung}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Wenn \(p_{RDB} \text{\textasciitilde} p_{Cont}\)\\
 		\textrightarrow\ Herunterrinnen, Schwerkraft, geringe Aerosolfreisetzung
 	\item Wenn \(p_{RDB} >> p_{Cont}\ (10MPa)\)\\
@@ -852,13 +852,13 @@
 \subsection{Barriere 4 - Sicherheitsbehälter}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Tests: SNL (F4 (Flugzeug) \textrightarrow\ Behälter)
 	\item Testprobleme: Skalierung, Übertragung auf andere Größenordnungen
 \end{itemize}
 
 \subsubsection{Einrichtungen Reduktion p/T}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Spray-System
 	\item Fan-Cooler System
 	\item Ice Condenser \textrightarrow Absorbiert Dampf durch Eisblöcke
@@ -868,34 +868,34 @@
 \end{itemize}
 
 \subsubsection{Typen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item PWR - Large Dry Containment
 	\item PWR - Subatmospheric Containment
 	\item PWR - Ice Condenser Containment
 	\item BWR - Mark I/II/III
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Bei Mark I
 			\item Drywell (unter RDB) und Wetwell
 		\end{itemize}
 \end{itemize}
 
 \subsubsection{Versagensarten}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Bypass
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Versagen d. Isolation des Containments
 			\item SGTR (Steam Generator Tube Rupture)
 			\item Externe Ereignisse (Flugzeugabsturz, Erdbeben)
 		\end{itemize}
 	\item Frühes Versagen
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Überdruck (Gase, \(H_2\)/Dampf-Explosion, DCH \textrightarrow Direct Containment Heating)
 			\item Geschosse durch Dampfexplosion
 			\item Wechselwirkung m. Schmelze
 			\item Stoß d. Druckbehälters
 		\end{itemize}
 	\item Spätes Versagen
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Überdruck (Gas/Dampf, \(H_2\)-Explosion)
 			\item Durchschmelzen \textrightarrow\ MCCI
 			\item Strukturversagen: Erosion
@@ -903,7 +903,7 @@
 \end{itemize}
 
 \subsubsection{Direct Containment Heating (DCH)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Austoss d. Schmelze + Dampf aus RDB
 	\item High Pressure Melt Ejection (HPME)
 	\item Schmelze zerstäubt
@@ -913,12 +913,12 @@
 \subsection{Barriere 5 - Reaktorgebäude}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Unterdruckzone
 \end{itemize}
 
 \subsubsection{Versagensarten}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item \(H_2\) Explosion
 	\item Öffnungen, Undichtheit
 	\item Externe Ereignisse (Flugzeugabsturz, Erdbeben, Geschosse, Tornado)
@@ -927,18 +927,18 @@
 \section{Aerosolverhalten}
 
 \subsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Aerosol: In der Luft vorhandene Partikel
 	\item Koagulation: Verklumpung kleiner Teilchen
 	\item Parameter: Teilchengröße, Oberflächenbeschaffenheit, Chem. Zusammensetzung
 \end{itemize}
 
 \subsection{Quellen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Mechanische Erzeugung bei SA vernachlässigt
 	\item Hauptquelle bei SA: Keimbildung von übersättigtem Dampf
 	\item Materialquellen
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Haupsächlich: Beton
 			\item Brennstoff + Strukturelemente
 			\item Fissionsprodukte
@@ -948,11 +948,11 @@
 \end{itemize}
 
 \subsection{Resuspension}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Abgelagertes Aerosol wieder aufgewirbelt
 	\item Durch Anstieg d. Gasflusses, Schock/Vibration d. Oberfläche
 	\item Ursachen
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Dampferzeugung im Core
 			\item Bruch d. Druckbehälters
 			\item Fuel-Coolant Wechselwirkung \textrightarrow\ Dampfexplosion
@@ -961,14 +961,14 @@
 \end{itemize}
 
 \subsection{Senkung d. Aerosolmenge}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Containment-Sprays
 	\item Fan Coolers
 	\item Steam Suppression Pools
 \end{itemize}
 
 \subsection{Phänomene im RDB}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Keimbildung v. Dämpfen
 	\item Kondensation v. Dämpfen an Aerosolen/Oberflächen
 	\item Agglomeration v. Aerosolen
@@ -976,15 +976,15 @@
 \end{itemize}
 
 \subsection{Aersole bei MCCI}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Abhängig v. Betonart
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Kalkhaltig (BWR, PWR)
 			\item Siliziumhaltig (PWR)
 			\item Sehr viel Aerosole bei BWR Kalkhaltig
 		\end{itemize}
 	\item Freigesetzte Komponenten
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Freies \(H_2O\): bei 230°C
 			\item Gebundenes \(H_2O\): 300-450°C
 			\item \(CO_2\): 600-1100°C
@@ -995,7 +995,7 @@
 \section{Iodverhalten}
 
 \subsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Radiologisch signifikant
 	\item Schilddrüse benötig Iod \textrightarrow\ Prophylaxe Kaliumiodid
 	\item Bei \(1300 MW_{el}\) PWR: 15kg Iod
@@ -1009,11 +1009,11 @@
 \end{itemize}
 
 \subsection{Vorraussetzungen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Freisetzung v. Spaltprodukten (Edelgase, I, Cs)
 	\item Freisetzung nicht radioaktiver Komponenten (Ag, In, Metalle)
 	\item Transport in Primärkreis
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item \(H_2O/H_2\) als Dampf/Aerosol
 			\item AgI-Dampf (hohe T)
 			\item CsI-Aerosol
@@ -1021,21 +1021,21 @@
 \end{itemize}
 
 \subsection{Flüchtigkeitsfaktoren}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Oberflächenmaterialien/Farben
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Haupteinfluss: Änderung Sumpfwasser ph-Wert
 			\item Vor allem organische Oberflächen beeinflussen pH-Wert \textrightarrow Wasserunreinheiten
 			\item Manche Oberflächen absorbieren viel Iodid
 			\item Entstehung verschiedener Iod-Ausprägunsformen (Gas/Wasser/Oberfläche)
 		\end{itemize}
 	\item pH-Wert
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item \textbf{Niedriger pH-Wert\textrightarrow Mehr Iodid-Flüchtigkeit}
 			\item Mehr pH \textrightarrow Mehr \(I^-\) verbleibt in Wasser
 		\end{itemize}
 	\item Präsenz von Strahlung
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item \textbf{Strahlung erhöht Iodid-Flüchtigkeit stark}
 			\item Mehr Adsorption in Gasphase (statt Flüssigphase)
 		\end{itemize}
@@ -1043,11 +1043,11 @@
 \end{itemize}
 
 \subsection{Iod-Chemie}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Von Brennstoffzellen als \(CsI\) in Containment \textrightarrow Wasserlöslich
 	\item Enstehung von nicht-flüchtigem \(I^-\) \textrightarrow Radiolyse \textrightarrow Entstehung flüchtiger Iodide
 	\item Flüssigphase
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Radiolyse v. Wasser in \(OH, H, H_2, HO_2, H_2O_2\)
 			\item Flüchtig: \(I_2, RI\)
 			\item Nicht-Flüchtig: \(I^-, I^-_3, IO^-_x, HOI\)
@@ -1055,15 +1055,15 @@
 			\item Einige \(RI\) sehr flüchtig \textrightarrow Gasphase
 		\end{itemize}
 	\item Gasphase
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Radiolyse v. Trockener Luft: \(N_2, O_2, H_2O \rightarrow OH, HO_2, O, O_3, N\)
 		\end{itemize}
 \end{itemize}
 
 \subsection{Iod-Thermodynamik}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Sinkende T in Primärkreis: Bildung I-transportiernder Teilchen
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Reaktion Metall-Iodid Dämpfe mit Aerosolen
 			\item Reaktion m. Spaltprodukten
 			\item Kondensation an Aerosoloberflächen
@@ -1073,14 +1073,14 @@
 \end{itemize}
 
 \subsection{Iod-Silber Reaktionen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Reaktion mit \(Ag/AgO_2\) \textrightarrow\ I-Senke
 	\item AgI nicht flüchtig, gering Löslich in Wasser
 	\item Wirksamkeit v. Menge/Art Ag abhängig
 \end{itemize}
 
 \subsection{Entfernung durch Spraysysteme}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Tropfen Absorptionsfähigkeit/Größe
 	\item Chemische Zusätze unterstützend
 	\item Hoher pH-Wert \textrightarrow\ unterstützt Hydrolyse
@@ -1089,15 +1089,15 @@
 \section{Wasserstoffverhalten}
 
 \subsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Testanlagen: CONAN, REKO, MISTRA
 	\item Modelle/Codes: COCOSYS, GASFLOW
 \end{itemize}
 
 \subsection{Quellen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item In-Vessel
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Zircaloy-Oxidation (1000MW PWR \textrightarrow\ 1T \(H_2\), BWR doppelt)
 			\item Stahl-Oxidation
 			\item Borkarbid-Oxidation
@@ -1106,7 +1106,7 @@
 			\item Fuel-Coolant Wechselwirkung (Schmelze in Wasser d. unteren Plenums)
 		\end{itemize}
 	\item Ex-Vessel
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Radiolyse v. Wasser
 			\item Korrosionsreaktionen (Zn, Al)
 			\item Reaktion \(UO_2\) mit Dampf, Wasser
@@ -1116,7 +1116,7 @@
 \end{itemize}
 
 \subsection{Maßnahmen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Inertialisierung d. Containments (\(N_2, CO_2\))
 	\item Katalytische Rekombination
 	\item Zünden
@@ -1125,7 +1125,7 @@
 \section{Dampfexplosion}
 
 \subsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Plötzlicher Übergang Flüssigkeit \textrightarrow\ Dampf
 	\item Fuel-Coolant Interaction (FCI)
 	\item Testanlagen: KROTOS, TROI
@@ -1134,7 +1134,7 @@
 \end{itemize}
 
 \subsection{Ablauf}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Schmelze fließt in Wasser
 	\item Umwandlung in Tröpfchen
 	\item Kontakt mit Wasser: Filmsieden
@@ -1147,7 +1147,7 @@
 \end{itemize}
 
 \subsection{Parameter}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Wasser: Tiefe, m, T
 	\item Schmelze: m, T, Geschwindigkeit, Druck
 	\item Behälter: Geometrie
@@ -1156,21 +1156,21 @@
 \end{itemize}
 
 \subsection{Szenarien}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Keine Dampfexplosion, verstärktes Sieden
 	\item Eine/Wenige schwache Dampfexplosionen
 	\item Eine große Dampfexplosion
 \end{itemize}
 
 \subsection{Folgen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Bruch RDB \textrightarrow\ HPME, Schmelzaustritt durch Gravitation
 	\item Teile d. RDB als Geschosse \textrightarrow\ Containmentversagen
 	\item Rocket-Case: MC als Geschoss oben aus RDB
 \end{itemize}
 
 \subsection{Möglichkeiten}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kein experimenteller Nachweis v. Dampfexplosion bei \(UO_2\)/Corium mit Wasser\\
 		\textrightarrow\ Sehr schnelle Krustenbildung
 	\item Nachweise bei \(Al_2O_3\) in Wasser\\
@@ -1180,13 +1180,13 @@
 \section{Molten Core Concrete Interaction (MCCI)}
 
 \subsection{Beton}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Zement als Bindemittel
 	\item Zuschlag, verschiedene Größen
 	\item Mit Wasser \textrightarrow\ Matrix mit Zuschlagsmaterial gefüllt
 	\item Calciumsilicathydrat (CSH)
 	\item Verschiedene Arten
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Schwerer Beton: Verdampfung Kristallwasser: 100°C
 			\item Superschwerer Beton
 			\item Serpentinistischer Beton: Verdampfung Kristallwasser: 500°C, n-Moderation
@@ -1194,20 +1194,20 @@
 \end{itemize}
 
 \subsection{Beton und Wasser}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Freies Wasser: in Poren des Zementsteins
 	\item Physikalisch gebundenes Wasser: an freien Oberflächen abgelagert
 	\item Chemisch gebundenes Wasser: Hydrationsprodukte d. Zements
 \end{itemize}
 
 \subsection{Phänomene}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Korrosion
 	\item Freisetzung v. Dampf/Gasen aus sich zersetzendem Beton
 	\item Chemische Reaktion der verdampften Bestandteile mit Schmelze
 	\item Vermischung d. Kernschmelze mit Betonschmelze \textrightarrow\ Änderung Erstarrungsverhalten
 	\item Wet Cavity
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Dampfspitze \textrightarrow\ Containmentbruch
 			\item Dampfexplosion
 			\item Geschossbildung aus Trümmern
@@ -1216,7 +1216,7 @@
 \end{itemize}
 
 \subsection{Sicherheitsfragen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Größe d. freigesetzten Spaltprodukte
 	\item Überdruckversagen d. Containments möglich?
 	\item Durchschmelzen d. Betonwanne?
@@ -1224,46 +1224,46 @@
 \end{itemize}
 
 \subsection{Corium in Cavity}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Corium bei 2700K
 	\item Metallische Phase: Stahl + Zircaloy
 	\item Oxidationsphase: \(UO_2 + ZrO_2\)
 	\item Energie
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item PWR \(1000MW_{el}\): \(250\frac{W}{kg}\) (early), \(50\frac{W}{kg}\) (12 days), \(5\frac{W}{kg}\) (1 year)
 			\item BWR \(1000MW_{el}\): \(160\frac{W}{kg}\) (early), \(30\frac{W}{kg}\) (12 days), \(3\frac{W}{kg}\) (1 year)
 		\end{itemize}
 	\item Modellierung
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Homogene Konfiguration: Oxidschicht
 			\item Geschichtete Konfiguration: Kruste \textrightarrow\ Oxidschicht \textrightarrow\ Metallschicht
 		\end{itemize}
 \end{itemize}
 
 \subsection{Interaktionen}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Schichten bekommen Masse durch zersetzenden Beton (\(H_2O,\ CO_2\), Schlacke)
 	\item Oxidschicht
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Strahlung(Wärme) \textrightarrow\ Atmosphäre, Metallschicht, Beton
 			\item \(H_2,\ CO,\ CO_2,\ H_2O\) \textrightarrow\ Atmosphäre
 			\item Reduzierte Oxide \textrightarrow\ Metallschicht
 		\end{itemize}
 	\item Metallschicht
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Wärme \textrightarrow\ Beton, Oxidschicht
 			\item Oxidierte Metalle, Gas \textrightarrow\ Oxidschicht
 		\end{itemize}
 \end{itemize}
 
 \subsection{Chemie d. Schmelze}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Oxidation:
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item (Zr/Cr/Fe) + (\(H_2O/CO_2\)) \textrightarrow\ \(H_2/CO\)
 		\end{itemize}
 	\item Reduktion:
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item \(Zr + (SiO_2/Fe_2O_3) \rightarrow (ZrO_2/Fe/Si/SiO)\)
 			\item \(Si + (H_2O/CO_2) \rightarrow (H_2/CO)\)
 		\end{itemize}
@@ -1271,11 +1271,11 @@
 \end{itemize}
 
 \subsection{Tests/Modelle}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Testanlagen: COMET, VULCANO, BETA I
 	\item Modelle/Codes: CORCON, ASTEC-MEDICIS
 	\item COMET-L2
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Durch Induktionswärme
 			\item Keine Oxidschmelze zu Beginn
 			\item Geschmolzener Beton sammelt sich auf Metallschmelze
@@ -1289,7 +1289,7 @@
 \section{Quelltermverhalten}
 
 \subsection{Simulation d. Computercodes}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Integrale Codes: STCP, ESCADRE, MELCOR, ASTEC (vs. Single Effect Codes)
 	\item Grundlagen sind Experimente (PBF, LOFT, PHEBUS)
 	\item Vorläufer: CORRAL (1977), MARCH (1980), MARCH-2 (1984)
@@ -1298,9 +1298,9 @@
 \subsection{STCP}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Komponenten für
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Primärsystem/Coreverhalten
 			\item Ex-Vessel Aerosole
 			\item Transport Radionuklide
@@ -1310,7 +1310,7 @@
 \end{itemize}
 
 \subsubsection{Ergebnis Primärkreislauf}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Sequenz: AB (Large Break + Station Blackout)
 	\item Szenario (Primärkreis)
 		\begin{enumerate}
@@ -1335,7 +1335,7 @@
 \end{enumerate}
 
 \subsubsection{Betonerosion}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Bei trockener Cavity: Anstieg d. Erosion
 	\item Unterseite zuerst komplett erodiert
 	\item Unterseite unter kontinuierlichem Angriff
@@ -1343,19 +1343,19 @@
 \end{itemize}
 
 \subsubsection{Containmentdruck}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Steigt an bis Containmentversagen, dann rapider Abfall
 \end{itemize}
 
 \subsubsection{Nuklide im Containment}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Steigt anfangs
 	\item Senkung viele Nuklide durch Spraysystem
 	\item Senkung durch bei Containmentversagen
 \end{itemize}
 
 \subsection{ASTEC}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kontinuierlich upgedatet
 	\item 2001: Release
 	\item 2004: Neues MCCI-Modul
@@ -1367,13 +1367,13 @@
 \section{Schwere Unfälle}
 
 \subsection{Frühe Unfälle - USA}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item 1954: Boiling Water Reactor Experiment No. 1 (BORAX-1)
 	\item 1955: Experimental Breeder Reactor No. 1 (EBR-1)
 \end{itemize}
 
 \subsection{Chalk-River (1952)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kühlung: Wasser, Moderator: Deuteriumoxid
 	\item Plutonium/Radiopharmakaproduktion
 	\item Bedienungsfehler \textrightarrow\ partielle Kernschmelze\\
@@ -1383,7 +1383,7 @@
 \subsection{SL-1 (1961)}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Stationary Low Power Unit
 	\item INEL
 	\item BWR
@@ -1402,7 +1402,7 @@
 \end{enumerate}
 
 \subsubsection{Probleme}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Designfehler: Kritikalität bei Entfernung des zentralen Kontrollstabes
 	\item Wartungsfehler: Klemmende Kontrollstäbe nicht repariert
 	\item Menschliches Versagen: Vorschriften nicht beachtet
@@ -1411,14 +1411,14 @@
 \subsection{Windscale Pile No. 1 (1957)}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kühlung: Luft
 	\item Moderator: Graphit
 	\item Problem: Wigner-Energie
 \end{itemize}
 
 \subsubsection{Probleme}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Falsche Instrumentenanzeige
 	\item Unklarheit Reaktorzustand
 \end{itemize}
@@ -1438,94 +1438,104 @@
 \subsection{Three Mile Island-2 (1979)}
 
 \subsubsection{Allgemein}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item PWR
 	\item PORV (Pilot Operated Relief Valve)
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Limitiert Druck im Kühlkreislauf
 			\item Überdruck in RCDT
 		\end{itemize}
 	\item RCDT (Reactor Coolant Drain Tank)
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Dampf kondensiert dort, zurück in Primärkreislauf
-			\item Bei Überdruck: Berstscheibe bricht, Dampf in Containment
+			\item Überströmventil \textrightarrow\ Kühlmittels in Containment
+			\item Bei Überdruck: Berstscheibe bricht \textrightarrow\ Kühlmittel ins Containment
 		\end{itemize}
 \end{itemize}
 
 \subsubsection{Probleme}
-\begin{itemize}
-	\item Auslöser: Fehlfunktion Ventil Speiseleitung \textrightarrow SG trocken
-	\item Signal verdeckt: PORV bleibt offen \textrightarrow unbemerkter LOCA
-	\item Operator ignoriert Start von HPCI/stoppt es, glaubt Primärsystem mit Wasser gefüllt
+\begin{itemize}[noitemsep]
+	\item Auslöser: Fehlfunktion Ventil Speiseleitung \textrightarrow\ SG trocken
+	\item Signal verdeckt: Ventil zur sekundären Speisewasserpumpe geschlossen
+	\item Fehlerhafte Anzeige: PORV bleibt offen (Fehlfunktion) \textrightarrow\ unbemerkter LOCA
+	\item Operatoren ignorieren Start von HPCI/stoppen es, Annahme Primärsystem mit Wasser gefüllt
+	\item Schwierigkeit Wiederherstellung des Kühlkreislaufs
 \end{itemize}
 
 
 \subsubsection{Unfallverlauf}
 \begin{enumerate}
 	\item Revisionsarbeiten (Kondensatreiniger reinigen)
-	\item 0s: Fehlfunktion: Ventil d. Speiseleitung geschlossen
+	\item Hauptspeisewasserpumpe wg. Fehlfunktion inaktiv
+	\item Sekundäre Speisewasserpumpe startet, aber Ventil geschlossen
 		\begin{enumerate}[label = \textrightarrow]
-			\item (Kondensatoren \textrightarrow\ Hauptspeisepumpen Sekundärkreislauf)
 			\item Loss of Feedwater Flow to Steamgenerator (SG)
-			\item Keine Kühlung durch SG
+			\item Austrocknung der SGs
+			\item Keine Kühlung durch SGs
 		\end{enumerate}
-	\item 3s: Druckanstieg, Druckhalteventil (PORV) bei 158 bar geöffnet
+	\item Druckanstieg
 		\begin{enumerate}[label = \textrightarrow]
-			\item Dampf in Abblasetank, kondensiert dort
-			\item 1 bar Überdruck \textrightarrow\ Berstscheibe zerbricht
-			\item Kühlmittel ins Containment
+			\item Druckhalteventil (PORV) bei 158 bar geöffnet
+			\item Dampf in Abblasetank (RCDT)
+			\item 3m: Überströmventil öffnet sich \textrightarrow\ Kühlmittel in Containment
+			\item 15m: Überdruck \textrightarrow\ Berstscheibe bricht \textrightarrow\ Kühlmittel in Containment
 		\end{enumerate}
-	\item 9s: CR eingefahren \textrightarrow\ Druckanstieg gestoppt
+	\item 9s: SCRAM
 		\begin{enumerate}[label = \textrightarrow]
-			\item PORV schließt nicht mehr (Signal verdeckt)
+			\item CR werden eingefahren
+			\item Druckanstieg gestoppt
+			\item PORV sollte schließen, aber mechanischer Fehler
+			\item Fehlerhafte Anzeige: PORV erscheint geschlossen, bleibt aber offen
 			\item Small Break LOCA
 		\end{enumerate}
-	\item 2m: Dampfgeneratoren trocken, Druck sinkt wegen PORV
+	\item 2m: SGs trocken, Druck sinkt wegen PORV
 		\begin{enumerate}[label = \textrightarrow]
+			\item Wenn SGs einmal trocken \textrightarrow\ kein Wiederauffüllen möglich
 			\item Start ECCS (HPCI)
-			\item Ignoriert v. Operator, ist immer wieder mal losgegangen
+			\item Ignoriert von Operatoren, ist immer wieder mal losgegangen
 		\end{enumerate}
-	\item 3m: Reactor Coolant Drain Tank Relief Valve öffnet
-	\item 8m: Feedwater Ventil geöffnet, aber SG bereits trocken
-	\item 15m: RCDT Rupture Disk bricht
-	\item 1h: Operator glaubt, Primärsystem mit \(H_2O\) gefüllt
+	\item 8m: Ventil sekundäre Speisewasserpumpe geöffnet \textrightarrow\ SGs bereits trocken
+	\item 1h: Operatoren glauben, Primärsystem mit Wasser gefüllt
 		\begin{enumerate}[label = \textrightarrow]
 			\item ECCS ausgeschaltet
 			\item Wasserniveau sinkt
 			\item Kern freigelegt
 			\item Temperatur steigt
 			\item Freisetzung Spaltprodukte + \(H_2\)
-			\item In Containment über Rupture Disk, Relief Valve
+			\item In Containment über Berstscheibe/Überströmventil
 		\end{enumerate}
-	\item 1h: Hauptkühlmittelpumpen ausgeschalten \textrightarrow\ Vibrationen wg. Kavitation
+	\item 2h: Primärkreislaufpumpen ausgeschalten
+		\begin{enumerate}[label = \textrightarrow]
+			\item Wegen Vibrationen durch Kavitation (Dampf bereits im System)
+			\item Beginn Austrocknung RPV
+			\item Kerntemperatur steigt
+			\item Kernfreilegung: Zircalloy + Dampf Reaktion
+			\item Emission Wasserstoff, Fissionsprodukte
+		\end{enumerate}
 	\item 2h: PORV geschlossen \textrightarrow\ LOCA gestoppt
 		\begin{enumerate}[label = \textrightarrow]
 			\item ca 30\% d. Kerns geschmolzen \textrightarrow\ Operatoren keine Ahnung
-			\item 700k Liter kontaminiertes \(H_2O\) in Containment
-			\item Strahlenalarm
+			\item 700k Liter kontaminiertes Wasser in Containment
+			\item Erstmals Strahlenalarm
 		\end{enumerate}
 	\item 3h: 50\% d. Kerns freigelegt
-	\item 3h: PORV Ventil f. 17 m geöffnet
-	\item 4h: HPCI erneut gestartet, kein Erfolg
+	\item 4-15h: Versuch Wiederherstellung Zirklulation / Drucksenkung
 		\begin{enumerate}[label = \textrightarrow]
-			\item Druck bleibt hoch
-			\item Keine Zirkulation
+			\item HPCI starten, PORV öffnen
+			\item nach einiger Zeit: Zirkulation startet, Druck sinkt
+			\item Wasserstoff in Containment
+			\item 9h: Wasserstoffexplosion
+			\item 13h: PORV schließen, Hauptkühlmittelpumpen an
+			\item 15h: Kühlung wiederhergestellt
 		\end{enumerate}
-	\item 7h: Ventil geöffnet \textrightarrow\ Dampf aus Druckhalter
-		\begin{enumerate}[label = \textrightarrow]
-			\item Druck sinkt (34 bar)
-		\end{enumerate}
-	\item 9h: \(H_2\) Explosion in Containment
-	\item 13h: Ventil geschlossen, Hauptkühlmittelpumpen wieder an
-	\item 15h: Kühlung wiederhergestellt
 \end{enumerate}
 
 \subsubsection{Lehren}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Schmelzvorgang beginnt bei Kontrollstäben
-	\item Wasserdampf in unterem Plenum schützt RDB
+	\item Wasserdampf in unterem Plenum schützt Wand des RDB
 	\item Containment effizente Barriere
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Fast 100\% I/Cs in Wasser geblieben
 			\item 50\% Edelgase in Containment
 			\item 10\% Edelgase in Umwelt \textrightarrow\ Dosis \(<1 mSv\)
@@ -1535,26 +1545,26 @@
 \subsection{Tschernobyl (1986)}
 
 \subsubsection{Probleme}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kernauslegung
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Positiver Void-Koeffizent
 			\item Positiver Abschalteffekt
 			\item Unzureichende Wirksamkeit d. Abschalteeinrichtungen
 		\end{itemize}
 	\item Unzureichende Wahrnehmung v. Sicherheit
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Keine unabhängige Sicherheitsbehörde
 			\item Lieferschwierigkeiten f. Anlagenteile
 		\end{itemize}
 	\item Mängel im Versuchsprogramm
-		\begin{itemize}
-			\item Ausarbeitung d. Elektroingenieur
+		\begin{itemize}[noitemsep]
+			\item Ausarbeitung d. Elektroingenieur / keine Reaktortechniker beteiligt
 			\item Keine Abstimmung m. Sicherheitspersonal
 			\item Zeitliche Verschiebungen \textrightarrow\ Schichtwechsel
 		\end{itemize}
 	\item Verstöße gegen Betriebsvorschriften
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Keine Erfahrung mit An/Abfahrprozessen (falsche Schicht)
 			\item Unterschreitung Mindestwert Reaktivitätsreserve
 			\item Unterschreitung d. vorgesehenen Werts f. thermischen Leistung
@@ -1565,9 +1575,9 @@
 
 
 \subsubsection{Abschaltesystem}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Steuerstäbe
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Absorberteil (\(B_4C\), 6m)
 			\item Verdrängerteil (Graphit, 4.5m)
 				\begin{enumerate}[label = \textrightarrow]
@@ -1579,14 +1589,15 @@
 \end{itemize}
 
 \subsubsection{Versuchsprogramm}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Nachweis d. Stromversorgung bei Reaktorabschaltung b. Totalausfall Stromversorgung
+	\item Kann auslaufende Turbine genug Energie liefern, bis Notstromaggregate aktiv?
 	\item Versuch bei reduzierter Leistung
 	\item Planung ohne Reaktortechniker
 \end{itemize}
 
 \subsubsection{Unfallverlauf}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item 25.4 1:00: Herunterfahren d. Leistung (3000 \textrightarrow\ 1000 \(MW_{therm}\))
 	\item Leistungsnachfrage \textrightarrow\ Herunterfahren bei 1600 MW unterbrochen
 		\begin{enumerate}[label = \textrightarrow]
@@ -1630,13 +1641,12 @@
 			\item Leistungsexkursion
 			\item Chemische Explosion, Graphitfeuer
 		\end{enumerate}
-	\item nach 3h: Meldung Reaktor sei Intakt
 	\item nach 1 Tag: Block mit Material zugeschüttet
 
 \end{itemize}
 
 \subsubsection{Quellterm}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item 100\% Xenon
 	\item 50\% Iod
 	\item 30\% Cäsium
@@ -1645,37 +1655,37 @@
 \subsection{Fukushima - 1 / Daiichi (2011)}
 
 \subsubsection{Allgemein}
-\begin{itemize}
-	\item Kontrollstäbe \(B_4C\, Hf\)
+\begin{itemize}[noitemsep]
+	\item Kontrollstäbe \(B_4C/Hf\)
 	\item Containment in Betrieb mit \(N_2\) inertisiert
 	\item Wetwell-Torus z. Druckentlastung (durch Kondensation)
 \end{itemize}
 
 \subsubsection{Probleme}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Erdbeben: Alle Reaktoren heruntergefahren\\
 		\textrightarrow\ \textbf{Loss of Offsite Power}
 	\item Tsunami: zu Hoch
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Dieselgeneratoren nicht operativ
 			\item Generatoren selbst hoch genug
 			\item Batterien/Verteiler zu tief
 				\begin{enumerate}[label = \textrightarrow]
 					\item Kein Notstrom
 					\item \textbf{Station Blackout}
-					\item Keine Pumpen operati (auch ECCS)
+					\item Keine Pumpen operativ (auch ECCS)
 				\end{enumerate}
 		\end{itemize}
 \end{itemize}
 
 \subsubsection{Reaktorzustände}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Fukushima I: Reaktor 4-6 nicht in Betrieb (Inspektion)
 	\item 11 Reaktoren automatisch abgeschalten
 \end{itemize}
 
 \subsubsection{Isolation Condensor (IC)}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Nur in Unit 1
 	\item Passives Notfallsystem
 	\item Normalerweise Ventil geschlossen
@@ -1684,29 +1694,29 @@
 \end{itemize}
 
 \subsubsection{Unfallverlauf}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Erdbeben \textrightarrow\ SCRAM
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Reaktoren unversehrt
 			\item Sicherheitsbehälter isoliert, Anlage in sicherem Zustand
 			\item Zerfallswärme: nach SCRAM 6\%, 1d: 1\%, 5d: 0.5\%
 		\end{itemize}
 	\item Umschalten auf externe Stromversorgung, Schalten auf Diesel
 	\item 2. Tsunami 17m Hoch
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Dieselgeneratoren hoch genug, Verteiler jedoch nicht
 			\item Meerwasser/Servicewasser-Einlassgebäude zerstört
 			\item Station Blackout, nur noch teilweise Batterien
 		\end{itemize}
 	\item (Unit 2/3) 1 Dampfturbinenpumpe operativ, durch Reaktordampf getrieben
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Dampf in Kondensationskammer (Wetwell) kondensiert
 			\item Wasser aus Kondensationskammer in Reaktor gepumpt
 			\item Benötigt Batterie, \(<100\text{°}C\)
 			\item Keine Wärmeleitung aus Gebäude \textrightarrow\ Zeitlich limitiert, stoppt schließlich
 		\end{itemize}
 	\item Öffnung Druckentlastungsventile zu Kondensatorkammer
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Wasserstand in RDB sinkt, Kern wird freigelegt
 		\end{itemize}
 	\item (Unit 1) IC Ventile geschlossen (kein Strom zum Öffnen)
@@ -1721,7 +1731,7 @@
 \end{itemize}
 
 \subsubsection{Kernaspekte}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item nach Druckentlastungsventilöffnung
 	\item Hüllrohrtemperaturen steigen
 	\item 50\% Freilegung: noch kein signifikanter Kernschaden
@@ -1734,7 +1744,7 @@
 \end{itemize}
 
 \subsubsection{Aspekte d. Ventings}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Entfernt Energie aus Containment (einzig verbliebener Weg)
 	\item Reduziert Druck in Containment
 	\item Freisetzung v. Aerosolen (I, Cs), gesamte Edelgase, Wasserstoff
@@ -1742,11 +1752,11 @@
 \end{itemize}
 
 \subsubsection{Gründe f. Verzögerung d. Ventings}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Kein Training unter Station Blackout Bedingungen
 	\item Kein Manuals für bestimmte Aktionen vorhanden
 	\item Ventilöffnung benötigt
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Druckluft \textrightarrow\ keine mobilen Druckluftgeräte
 			\item Strom \textrightarrow\ nicht Vorhanden
 		\end{itemize}
@@ -1754,16 +1764,16 @@
 \end{itemize}
 
 \subsubsection{Brennelementlagerbecken}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Gesamter Kern v. Block 4 in Becken (Inspektion)
 	\item Gefahr d. Austrocknung
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Block 4: 10 Tage
 			\item Restliche Blöcke: einige Wochen
 			\item Ungewissheit: Leck wegen Erdeben?
 		\end{itemize}
 	\item Mögliche Konsequenzen
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Brennelemente schmelzen an Luft
 			\item Keine Rückhaltung v. Spaltprodukten
 			\item Große Freisetzung möglich
@@ -1772,25 +1782,25 @@
 \end{itemize}
 
 \subsubsection{Status}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Unit 1
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Gebäudeschutz errichtet/abgebaut (Extraktion Brennelemente)
 			\item Identifkation v. Trümmern
 		\end{itemize}
 	\item Unit 2
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Blowout Panel geschlossen
 			\item Hohe Strahlung im Gebäude
 		\end{itemize}
 	\item Unit 3
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Trümmerentfernung v. Dach 2013 beendet
 			\item Planung der Brennelementextraktion
 			\item Hohe Strahlung
 		\end{itemize}
 	\item Unit 4
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 			\item Brennelemente extrahiert
 		\end{itemize}
 \end{itemize}
